@@ -1,25 +1,31 @@
-## The Golden Rule: 
+# Supabase Fuzzy Bunny Organizer
 
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
+[Buggy Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/buggy-js-fuzzy-bunny-organizer)
 
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+### Live Example:
+https://alchemycodelab.github.io/js-fuzzy-bunny-organizer/
 
-## Making a plan
+![](./assets/fuzzy-bunnies.png)
 
-1) **Make a drawing of your app. Simple "wireframes"**
-1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
-1) **For each HTML element ask: Why do I need this?** 
-1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
-1) **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
-1) **Think about how to validate each of your features according to a Definition of Done**
-1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
+| User should be able to . . .                                                         |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo |    1 |
 
-Additional considerations:
-- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
-- Consider your data model. 
-  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need? 
-  - What are the key/value pairs? 
-  - What arrays might you need? 
-  - What needs to live in a persistence layer?
-- Is there some state we need to initialize?
-- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+| Events                                                                                |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| On the home page (`'/'`), Login and Signup using the login and signup form. On success, redirect to the `/families` page   |        1 |
+| Logout by clicking the logout button                                                       |        1 |
+| If a non-logged-in user tries to visit the `/families` or `/create` page, redirect them to the login page     |       1 |
+| On the `/families` page load, fetch the families (with their bunnies) from supabase and render them to the page         |        1 |
+| On clicking a bunny, delete it from supabase. Clear out all families from the DOM, refetch, and render them again.                                              |        1 |
+| On the `/create` page, on load, fetch families. Use these families to create the dropdown to let the user attach a bunny to a family.                            |        1 |
+| On the `/create` page, on submit, create a bunny. The form should include a name for the bunny and a dropdown for the family (from the fetched families in supabase).                            |        1 |
+
+
+| Functions                                                                                |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| PURE: `renderFamily(family)` : returns a DOM node with family and their bunnies |1|
+| PURE: `renderBunny(bunny)` : returns a DOM node the bunny |1|
+| ASYNC: `getFamilies()` : get all bunnies in supabase. (These families are the same for everybody in the cohort and do not 'belong' to any particular user. Your bunnies will show up for everybody) |1|
+| ASYNC: `createBunny(bunny)` : create bunny in supabase and attach it to a family |1|
+| ASYNC: `deleteBunny(id)` : delete a bunny in supabase |1|
