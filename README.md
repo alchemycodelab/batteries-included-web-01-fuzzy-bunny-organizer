@@ -2,6 +2,9 @@
 
 [Buggy Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/buggy-js-fuzzy-bunny-organizer)
 
+## Learning Objectives
+- In response to a user event, make a fetch  call to delete an item in the array and display the new state to the user (i.e., delete a todo).
+
 ### Live Example:
 https://alchemycodelab.github.io/js-fuzzy-bunny-organizer/
 
