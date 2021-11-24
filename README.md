@@ -8,8 +8,6 @@
 ### Live Example:
 https://alchemycodelab.github.io/js-fuzzy-bunny-organizer/
 
-<img src="https://raw.githubusercontent.com/alchemycodelab/half-baked-js-fuzzy-bunny-organizer/main/assets/fuzzy-bunnies.png" width="1000" height="560" />
-
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
 | Visit the deployed pages on GitHub pages, with link in the About section of the Github repo |    1 |
