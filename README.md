@@ -8,7 +8,7 @@
 ### Live Example:
 https://alchemycodelab.github.io/js-fuzzy-bunny-organizer/
 
-![](https://github.com/alchemycodelab/half-baked-js-fuzzy-bunny-organizer/blob/main/assets/fuzzy-bunnies.png)
+![](https://raw.githubusercontent.com/alchemycodelab/half-baked-js-fuzzy-bunny-organizer/main/assets/fuzzy-bunnies.png)
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
