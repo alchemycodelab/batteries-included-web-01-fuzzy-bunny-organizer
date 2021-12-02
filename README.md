@@ -6,7 +6,7 @@
 [Buggy Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/buggy-js-fuzzy-bunny-organizer)
 
 ### Live Example:
-https://alchemycodelab.github.io/js-fuzzy-bunny-organizer/
+https://alchemycodelab.github.io/web-01-fuzzy-bunny-organizer/
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
