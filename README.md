@@ -5,6 +5,12 @@
 
 [Buggy Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/buggy-js-fuzzy-bunny-organizer)
 
+Here is the model for the `fuzzy_bunnies` table
+![](./bunnies-model.png)
+
+Here is the model for the `loving_families` table
+![](./families-model.png)
+
 ### Live Example:
 https://alchemycodelab.github.io/web-01-fuzzy-bunny-organizer/
 
