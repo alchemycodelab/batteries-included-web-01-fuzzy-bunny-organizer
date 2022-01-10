@@ -42,6 +42,6 @@ https://alchemycodelab.github.io/web-01-fuzzy-bunny-organizer/
 | Functions                                                                                |             |
 | :----------------------------------------------------------------------------------- | ----------: |
 | PURE with TDD: `renderBunny(bunny)` : returns a DOM node the bunny |1|
-| ASYNC: `getFamilies()` : get all bunnies in supabase. (These families are the same for everybody in the cohort and do not 'belong' to any particular user. Your bunnies will show up for everybody) |1|
+| ASYNC: `getFamilies()` : get all bunnies in supabase. (These families are the same for everybody in the cohort and do not 'belong' to any particular user. Your bunnies will show up only for you) |1|
 | ASYNC: `createBunny(bunny)` : create bunny in supabase and attach it to a family |1|
 | ASYNC: `deleteBunny(id)` : delete a bunny in supabase |1|
