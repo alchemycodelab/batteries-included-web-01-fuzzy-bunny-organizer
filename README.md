@@ -16,6 +16,14 @@ Here is the schema for the `loving_families` table
 ### Live Example:
 https://alchemycodelab.github.io/web-01-fuzzy-bunny-organizer/
 
+
+### Stretch Goals Ideas
+1) Add a page that lets you create a new loving family
+2) On click, don't delete the bunny--go to the bunny's "detail page". The detail page will have an interface that lets the user update the bunny. This includes allowing the user to change which loving family the bunny belongs to.
+3) Automatically generate the bunny form using a bunny fetched from the database. That way if new properties end up added to the bunny table, the front end dev doesn't need to update the front end later.
+4) Add filter/sort functionality to the families page? Only show bunnies who are larger than 7 lbs, for example? Only show families with more than 2 bunnies?
+5) _Mega ambitious_: I want to able to drag and drop bunnies to different families.
+
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
 | Visit the deployed pages on GitHub pages, with link in the About section of the Github repo |    .5 |
