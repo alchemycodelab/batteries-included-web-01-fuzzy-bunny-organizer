@@ -11,9 +11,6 @@
 
 ## Getting Started
 
-1. Use [this](https://github.com/alchemycodelab/half-baked-web-01-fuzzy-bunny-organizer) template to get started.
-1. Create your own Fuzzy Bunnies database in Supabase using the seed data in `seeds.sql`. Copy / paste this file into the SQL Editor in Supabase. You should end up with the following schema.
-
 Here is the schema for the `fuzzy_bunnies` table
 
 ![](https://github.com/alchemycodelab/half-baked-web-01-fuzzy-bunny-organizer/raw/main/bunnies-model.png)
@@ -22,22 +19,21 @@ Here is the schema for the `loving_families` table
 
 ![](https://github.com/alchemycodelab/half-baked-web-01-fuzzy-bunny-organizer/raw/main/families-model.png)
 
-You should also have several families in the loving_families table. There is no seed data for the bunnies.
 Enable row level security and add policies that only allow authenticated users to perform CRUD actions on the tables.
 
 ## Acceptance Criteria
 
--   Users should be able to see the list of families on the `/families` page with their fuzzy bunnies
--   Clicking a bunny should delete it from supabase
--   On `/create` users should see a dropdown that allows users to attach bunnies to families
--   On `/create`, submitting the form should create a new bunny attached to the selected family and redirect to the main family page
 
 | Task                                                                             | Points |
 | -------------------------------------------------------------------------------- | ------ |
-| Impure: `fetchAnddisplayFamilies()` function to display the families and bunnies            | 4      |
-| ASYNC: `getFamilies()`: returns all families with their bunnies                  | 2      |
-| ASYNC: `createBunny(bunny)` : create bunny in supabase and attach it to a family | 2      |
-| ASYNC: `deleteBunny(id)` : delete a bunny in supabase                            | 2      |
+|   Users should be able to see the list of families on the `/families` page with their fuzzy bunnies | 1 |
+|   Clicking a bunny should delete it from supabase | 1 |
+|   On `/create` users should see a dropdown that allows users to attach bunnies to families | 1 |
+|   On `/create`, submitting the form should create a new bunny attached to the selected family and redirect to the main family page |
+| Impure: `fetchAndDisplayFamilies()` function to display the families and bunnies            | 2      |
+| ASYNC: `getFamilies()`: returns all families with their bunnies                  | 1      |
+| ASYNC: `createBunny(bunny)` : create bunny in supabase and attach it to a family | 1      |
+| ASYNC: `deleteBunny(id)` : delete a bunny in supabase                            | 1      |
 
 ### Stretch Goals Ideas
 
