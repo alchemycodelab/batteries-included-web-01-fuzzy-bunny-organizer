@@ -34,7 +34,7 @@ Enable row level security and add policies that only allow authenticated users t
 
 | Task                                                                             | Points |
 | -------------------------------------------------------------------------------- | ------ |
-| Impure: `displayFamilies()` function to display the families and bunnies            | 4      |
+| Impure: `fetchAnddisplayFamilies()` function to display the families and bunnies            | 4      |
 | ASYNC: `getFamilies()`: returns all families with their bunnies                  | 2      |
 | ASYNC: `createBunny(bunny)` : create bunny in supabase and attach it to a family | 2      |
 | ASYNC: `deleteBunny(id)` : delete a bunny in supabase                            | 2      |
