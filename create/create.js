@@ -1,4 +1,9 @@
-import { createBunny, getFamilies, checkAuth, logout } from '../fetch-utils.js';
+import { 
+    createBunny, 
+    getFamilies, 
+    checkAuth, 
+    logout,
+} from '../fetch-utils.js';
 
 const form = document.querySelector('.bunny-form');
 const logoutButton = document.getElementById('logout');

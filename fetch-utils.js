@@ -10,6 +10,7 @@ export function getUser() {
 
 export async function getFamilies() {
     // fetch all families and their bunnies
+
     // return checkError(response);
 }
 
@@ -20,10 +21,9 @@ export async function deleteBunny(id) {
 
 export async function createBunny(bunny) {
     // create a bunny using the bunny argument
+
     // return checkError(response);
 }
-
-// MARTHA STEWART (PRE-MADE) FUNCTIONS
 
 export async function checkAuth() {
     const user = getUser();
